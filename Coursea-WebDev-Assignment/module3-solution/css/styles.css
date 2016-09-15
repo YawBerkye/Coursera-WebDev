@@ -52,6 +52,9 @@ body{
 
 /* OUR MENU(HOME)*/
 
+#hear-menu-title h2{
+	font-weight: bold;
+}
 #Home-tiles-menu{
 	margin: 5px 1px 10px 1px;
 }
@@ -64,9 +67,12 @@ body{
 }
 
 #chicken-menu-tile h3{
-	font-family: 1.4em;
+	font-weight: bold;
+	font-family: 1.8em;
 }
 #chicken-menu-tile p{
+	font-family: 'Domine', serif;
+	font-style: 25px;
 	text-align: justify;
 }
 /*END OF OUR MENU*/
