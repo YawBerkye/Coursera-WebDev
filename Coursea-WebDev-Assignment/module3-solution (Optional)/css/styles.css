@@ -1,0 +1,123 @@
+/**{
+	box-sizing: border-box;
+}*/
+
+body{
+	
+	font-size: 12px;
+	background-color: #F2F4F4;
+	font-family: 'Oxygen', sans-serif;
+}
+
+ /* HEADER */
+#header-nav{
+	background-color: #1A5276;
+	border-radius: 0px;
+	border: 0px;
+}
+
+.navbar-brand{
+	padding-top: 10px;
+}
+
+.navbar-brand h1{ /* Company Name*/
+	font-family: 'Francois One', sans-serif;
+	color: #D68910;
+	font-size: 1.9em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-shadow: 1px 1px 1px #fff;
+	line-height: .80;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #DC7633;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 5px;
+}
+
+#nav-list{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#nav-list li span{
+	color: #B7950B;
+	font-weight: bold;
+}
+
+#nav-list hr{
+	color: #CACFD2;
+}
+
+/*END OF HEADER*/
+
+/* OUR MENU(HOME)*/
+.row{
+	width: 100%;
+}
+#hear-menu-title h2{
+	font-weight: bold;
+}
+#Home-tiles-menu{
+	margin: 5px 1px 10px 1px;
+}
+
+#main-container{
+
+}
+
+#chicken-menu-tile, #Beef-menu-tile, #Sushi-menu-tile{
+	background-color: #CACFD2;
+	padding: 5px 15px 5px 15px;
+	margin: 5px auto 10px;
+	/*height: 500px;*/
+}
+
+#chicken-menu-tile h3, #Beef-menu-tile h3, #Sushi-menu-tile h3{
+	font-weight: bold;
+	font-family: 1.8em;
+}
+#chicken-menu-tile p, #Beef-menu-tile p, #Sushi-menu-tile p{
+	font-family: 'Domine', serif;
+	font-style: 25px;
+	text-align: justify;
+}
+/*END OF OUR MENU*/
+/********** Medium devices only **********/
+@media(min-width: 992px) and (max-width: 1199px){
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+	
+	/*HEADER*/
+	.navbar-brand h1{
+	font-size: 1.6em;
+	text-shadow: 0px 0px 0px;
+	line-height: .70;
+	}
+
+	#chicken-menu-tile{
+		height: auto;
+	}
+}
+
+/********** Extra small devices only **********/
+@media(max-width: 767px){
+
+	/*HEADER*/
+	.navbar-brand h1{
+	font-size: 1.6em;
+	text-shadow: 0px 0px 0px;
+	line-height: .70;
+	}
+
+	#chicken-menu-tile{
+		height: auto;
+	}
+}
